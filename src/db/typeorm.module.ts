@@ -1,6 +1,8 @@
 import { Module } from '@nestjs/common'
 import { TypeOrmModule as NestTypeOrmModule } from '@nestjs/typeorm'
+import { config } from "dotenv";
 
+config();
 
 @Module({
     imports: [
