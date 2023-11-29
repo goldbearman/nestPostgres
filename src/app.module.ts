@@ -16,7 +16,7 @@ config();
         TypeOrmModule,
         UserModule,
     ],
-    controllers: [UserController],
+    // controllers: [UserController],
 })
 export class AppModule {
 }
